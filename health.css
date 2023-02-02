@@ -1,0 +1,1021 @@
+.mainContainer {
+    justify-content: center;
+    align-items: center;
+    background: #ffff;
+    max-width: 1400px;
+}
+
+.navMainConatiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+}
+
+.logo {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #F1A501;
+}
+
+.menu-burger-container {
+    position: relative;
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+    display: none;
+
+
+}
+
+.burger-line {
+    width: 20px;
+    height: 1.5px;
+    border-radius: 5px;
+    background: black;
+}
+
+.burger-line-2 {
+    top: 8px;
+    position: absolute;
+    width: 20px;
+    height: 1.3px;
+    border-radius: 5px;
+    bottom: 0px;
+    background: black
+}
+
+.burger-line-3 {
+    top: 14px;
+    position: absolute;
+    width: 20px;
+    height: 1.4px;
+    border-radius: 5px;
+    bottom: 0px;
+    background: black;
+
+}
+
+.childNavContainer {}
+
+.navUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navLI {
+    float: left;
+}
+
+.navA {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    color: #313131;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a:hover:not(.active) {
+    color: #ECA204;
+}
+
+.btnMainContainer {
+    justify-content: center;
+    display: flex;
+}
+
+.loginContainer {}
+
+.loginText {
+    padding: 17px 51px 17px 51px;
+    border: 1px solid #ECA204;
+    border-radius: 10px;
+    background-color: #ffff;
+    color: #ECA204;
+    font-weight: 500;
+    font-size: 14px;
+    width: 140px;
+    height: 55px;
+    cursor: pointer;
+
+}
+
+.SignupContainer {}
+
+.SignupText {
+    padding: 17px 51px 17px 51px;
+    background: linear-gradient(180deg, #F1A501 0%, #E4A00B 100%);
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 14px;
+    height: 55px;
+    cursor: pointer;
+}
+
+
+.secondMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.textContainer {
+    font-size: 2rem;
+    margin: 50px 50px 0px 150px;
+}
+
+.p1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #4F4F4F;
+}
+
+.cilke {
+    color: #F1A501;
+}
+
+.p2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6C7485;
+    font-size: 0.9rem;
+    margin-top: 0px;
+}
+
+.getStartBtn {
+    background: #F1A501;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 14px;
+    height: 55px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.getStartBtn:hover {
+    background-color: #313131;
+}
+
+/* .PopUp {
+    width: 1440px;
+    height: 1024px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.5s, top 0.5s;
+
+}
+
+.open_popUp{
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+    top: 250%;
+}
+
+.popUpSecondContainer {
+    margin: 200px 230px 180px 250px ;
+}
+
+.popUpThirdContainer {
+    background: linear-gradient(90.66deg, #FFFFFF 49.98%, rgba(255, 255, 255, 0) 97.42%);
+    border-radius: 10px;
+    width: 769px;
+    height: 607px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.popUpImg {
+    text-align: center;
+    position: absolute;
+    background: #C4C4C4;
+    border-radius: 10px;
+    width: 900px;
+height: 607px;
+}
+.popUpPContainer{
+    margin-top: 82px;
+    margin-left: 50px;
+}
+
+.popupFP {
+    font-weight: 500;
+    font-size: 36px;
+    color: #313131;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.popupSP {
+    font-weight: 500;
+    font-size: 20px;
+    color: #4F4F4F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.popupTP {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4F4F4F;
+}
+
+.closeText{
+    padding: 17px 51px 17px 51px;
+    background: #F1A501;
+    border-radius: 10px;
+    border: none;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 14px;
+    height: 55px;
+    cursor: pointer;
+}
+.closeText:hover{
+    background-color: #313131;
+} */
+
+.ImgMainContainer {
+    margin-right: 250px;
+}
+
+#grad1 {
+    /* height: 300px; */
+    background-image: linear-gradient(180deg, rgba(241, 165, 2, 0) 0%, #F1A502 100%);
+    width: 435px;
+    height: 430px;
+    border-radius: 50%;
+    margin-top: 174px;
+}
+
+.fImg {
+    width: 360px;
+    height: 550px;
+    margin-top: -119px;
+    margin-left: -4.5px;
+}
+
+.thirdMainContainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.whyContainer {
+    text-align: center;
+}
+
+.whyText {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.why {
+    color: #F1A501;
+}
+
+.tPContainer {
+    text-align: center;
+}
+
+.pText {
+    color: #7E7E7E;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -20px;
+}
+
+.forthMainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.tabContainer {
+    background: #ffff;
+    box-shadow: 0px 2px 20px rgba(122, 122, 122, 0.3);
+    border-radius: 15px;
+    width: 300px;
+    height: 208px;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.tabContainer1 {
+    background: #ffff;
+    box-shadow: 0px 2px 20px rgba(122, 122, 122, 0.3);
+    border-radius: 15px;
+    width: 300px;
+    height: 208px;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.vectorImgContainer {
+    align-items: center;
+    background: #ffff;
+    border: 10px solid #EDEDED;
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+
+    margin-inline: 90px;
+    margin-top: -50px;
+    /* display: flex; */
+}
+
+.vectorImg {
+    text-align: center;
+    margin-left: -19px;
+}
+
+.vectorImg4 {
+    text-align: center;
+    margin-left: -20px;
+    margin-top: -32px;
+    position: absolute;
+}
+
+.secondText {
+    color: #4F4F4F;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rectangleContainer {
+    align-items: center;
+    background: #ffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin: 0px -10px 0px -10px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.rectangleImg1 {
+    text-align: center;
+    z-index: 1;
+    margin-left: -27px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.rectangleImg2 {
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    margin-top: -1px;
+    margin-left: -11px;
+
+}
+
+.rectangleImg1_1 {
+    text-align: center;
+    z-index: 1;
+    margin-left: -27px;
+    margin-top: 22px;
+    position: absolute;
+}
+
+.rectangleImg2_1 {
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    margin-top: 10px;
+    margin-left: -27px;
+
+}
+
+.fifthMainContainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.fiftFirstText {
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4F4F4F;
+}
+
+.fifthSecondText {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #313131;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 38px;
+}
+
+.photosMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.lagMainContainer {
+    justify-content: center;
+    align-items: center;
+}
+
+.lagChildContainer {}
+
+.rectangleImg5 {
+    width: 294px;
+    height: 291px;
+}
+
+.lagTextContainer {
+    background: #313131;
+    border-radius: 0px 0px 30px 30px;
+    justify-content: center;
+    align-items: center;
+    width: 294px;
+    height: 94px;
+    margin-left: 40px;
+    margin-top: -28px;
+}
+
+.lagText {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.fingureMainContainer {
+    justify-content: center;
+    align-items: center;
+}
+
+.fingureChildContainer {}
+
+.rectangleImg6 {
+    width: 294px;
+    height: 291px;
+}
+
+.fingureTextContainer {
+    background: #F1A501;
+    border-radius: 0px 0px 30px 30px;
+    justify-content: center;
+    align-items: center;
+    width: 294px;
+    height: 94px;
+    margin-left: 40px;
+    margin-top: -28px;
+}
+
+.fingureText {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.ellipsImg {
+    margin-left: -50px;
+    position: absolute;
+    margin-top: 20px
+}
+
+.vectorImg5 {
+    text-align: center;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -42px;
+}
+
+.getstartedSecondBtnContainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+}
+
+.getstartedSecondBtn {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 325.9px;
+    height: 65px;
+    background: #F1A501;
+    box-shadow: 0px 9px 28px rgba(241, 165, 1, 0.2);
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.getstartedSecondBtn:hover {
+    background-color: #313131;
+}
+
+.howTextContainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    display: flex;
+}
+
+.howText {
+    font-weight: 700;
+    font-size: 48px;
+    color: #4F4F4F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.word {
+    color: #F1A501;
+}
+
+.stepMainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.step1Container {
+    background: #ffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 350px;
+    height: 499px;
+    border-width: 2px;
+    border-color: #F1A501;
+}
+
+.step1Img {
+    width: 350px;
+    height: 229px;
+    margin-left: -40px;
+    margin-top: -16px;
+}
+
+.step1textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stepText {
+    font-weight: 700;
+    font-size: 18px;
+    color: #F1A501;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.numberEllipsImg {
+    position: absolute;
+    margin-top: -22px;
+    margin-left: -30px;
+}
+
+.numberText {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pStepTextContainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.PText {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: #4F4F4F;
+}
+
+.knowMoreContainer {
+    justify-content: center;
+    align-items: center;
+}
+
+.knowText {
+    text-align: center;
+    color: #F1A501;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.OrangeContainer {
+    width: 350px;
+    height: 10px;
+    background: #F1A501;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 23px;
+}
+
+.stepMainSecondContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+.step4Container {
+    background: #ffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 350px;
+    height: 499px;
+    margin-right: -90px;
+}
+
+.step5Container {
+    background: #ffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 350px;
+    height: 499px;
+    margin-left: -90px;
+}
+
+.fruitsMainContainer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.fruitImgContainer {}
+
+.fruitImg {
+    width: 504px;
+    height: 354px;
+    border-radius: 10px;
+}
+
+.textMainContainer {
+    /* margin-left: -90px; */
+}
+
+.textChildContainer {}
+
+.seeText {
+    font-weight: 700;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4F4F4F;
+}
+
+.how {
+    color: #F1A502;
+}
+
+.QPText {
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7E7E7E;
+}
+
+.readMoreBtn {
+    width: 182.86px;
+    height: 66px;
+    background: #F1A501;
+    box-shadow: 0px 9px 28px rgba(241, 165, 1, 0.2);
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffff;
+    cursor: pointer;
+
+}
+
+.readMoreBtn:hover {
+    background-color: #313131;
+}
+
+.EllipsContainer {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    display: flex;
+}
+
+.lastMainContainer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.lastFContainer {}
+
+.MainCText {
+    font-weight: 700;
+    font-size: 18px;
+    color: #F1A501;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tallFreeText {
+    font-weight: 500;
+    font-size: 14px;
+    color: #313131;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.latNumberText {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #313131;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.emailText {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #313131;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.addressText {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #313131;
+}
+
+.MainUText {
+    font-weight: 700;
+    font-size: 18px;
+    color: #F1A501;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lastSecondText {
+    font-weight: 400;
+    font-size: 14px;
+    color: #313131;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lastUContainer {}
+
+.lastFolloContainer {}
+
+.lastHContainer {}
+
+.MainFText {
+    font-weight: 700;
+    font-size: 18px;
+    color: #F1A501;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.MainHText {
+    font-weight: 700;
+    font-size: 18px;
+    color: #F1A501;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+@media only screen and (max-width: 1093px) {
+    .navMainConatiner {
+        flex-direction: column;
+    }
+
+    .forthMainContainer {
+        flex-direction: column;
+    }
+
+    .tabContainer {
+        margin-top: 70px;
+    }
+
+    .tabContainer1 {
+        margin-top: 0px;
+    }
+
+    .rectangleContainer {
+        margin-top: 25px;
+    }
+
+    .photosMainContainer {
+        flex-direction: column;
+    }
+
+    .stepMainContainer {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .step1Container {
+        margin-top: 30px;
+    }
+
+    .step4Container {
+        margin-right: 0px;
+    }
+
+    .step5Container {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .howTextContainer {
+        margin-top: 30px;
+    }
+
+    .stepMainSecondContainer {
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 860px) {
+    .secondMainContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .ImgMainContainer {
+        margin-right: 0px;
+        margin-top: -70px;
+
+    }
+
+    .textContainer {
+        margin: 0px;
+    }
+
+    .p1 {
+        font-size: 2rem;
+    }
+
+    .p2 {
+        font-size: 0.8rem;
+    }
+
+    .childNavContainer {
+        display: none;
+    }
+
+    .btnMainContainer {
+        display: none;
+    }
+
+    .menu-burger-container {
+        display: flex;
+        margin-left: 20pc;
+        margin-top: -28px;
+    }
+
+}
+
+@media only screen and (max-width: 545px) {
+    .ImgMainContainer {
+        width: 360px;
+        height: 550px;
+        margin-top: 30px;
+    }
+
+    .fImg {
+        width: 244px;
+        height: 391px;
+        margin-top: -83px;
+    }
+
+    #grad1 {
+        width: 313px;
+        height: 305px;
+        margin-top: 64px;
+        margin-left: 20px;
+    }
+
+    .textContainer {
+        margin-top: -190px;
+    }
+
+    .fifthMainContainer {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .fiftFirstText {
+        font-size: 22px;
+    }
+
+    .fifthSecondText {
+        font-size: 16px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .fruitImg {
+        width: 404px;
+        height: 254px;
+    }
+
+    .readMoreBtn {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 904px) {
+    .fruitsMainContainer {
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    .seeText {
+        font-weight: 800;
+        font-size: 36px;
+    }
+
+    .QPText {
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    .lastMainContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .lastUContainer {
+        margin-left: -30px;
+        text-align: center;
+    }
+
+    .lastFContainer {
+        margin-left: -30px;
+        text-align: center;
+    }
+
+    .lastFolloContainer {
+        text-align: center;
+        margin-left: -30px;
+    }
+
+    .lastHContainer {
+        text-align: center;
+        margin-left: -30px;
+    }
+
+}

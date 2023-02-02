@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy...Demo</title>
+    <link rel="stylesheet" type="text/css" href="health.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <a name="ReadMore"></a>
+        <nav class="navMainConatiner">
+            <div class="logo">Healthy.How</div>
+            <div class="butger">
+                <div class="menu-burger-container">
+                    <div class="burger-line"></div>
+                    <div class="burger-line-2"></div>
+                    <div class="burger-line-3"></div>
+                </div>
+            </div>
+            <div class="childNavContainer">
+                <ul class="navUL">
+                    <li class="navLI"><a href="#Testimonials" class="navA" href="#Home" style="color:#F1A501 ;">Home</a>
+                    </li>
+                    <li class="navLI"><a href="#Testimonials" class="navA" href="#Our Services">Our Services</a></li>
+                    <li class="navLI"><a href="#HowItWork" class="navA" href="#Calculators">How it Works</a></li>
+                    <li class="navLI"><a href="#Testimonials" class="navA" href="#Testimonials">Testimonials</a></li>
+                    <li class="navLI"><a href="#Contact" class="navA" href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="btnMainContainer">
+                <div class="loginContainer">
+                    <button class="loginText">Login</button>
+                </div>
+                <div class="SignupContainer">
+                    <button class="SignupText">Sign up</button>
+                </div>
+            </div>
+        </nav>
+        <div class="secondMainContainer">
+            <div class="textContainer">
+                <a name="Testimonials"></a>
+                <p class="p1">A healthier you <br /> is just a <span class="cilke">Click</span> away. </p>
+                <p class="p2">Fitmeet services is dedicated to bringing you & your family healthy,<br /> delicious food
+                    options whenever you’re
+                    at on of our location.</p>
+                <a style="color: #ffff; text-decoration: none;" href="#GetStarted"><button class="getStartBtn">Get
+                        Started</button></a>
+            </div>
+            <div class="ImgMainContainer">
+                <div id="grad1">
+                    <figure>
+                        <img src="./Images/1st.png" alt="" class="fImg">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="thirdMainContainer">
+            <div class="whyContainer">
+                <p class="whyText"><span class="why">Why</span> us?</p>
+            </div>
+            <div class="tPContainer">
+                <p class="pText">Fitmeet services is dedicated to bringing you & your family healthy, delicious food
+                    <br /> options whenever you’re at on of our location.
+                </p>
+            </div>
+        </div>
+        <div class="forthMainContainer">
+            <div class="tabContainer1">
+                <div class="vectorImgContainer">
+                    <figure><img class="vectorImg" src="./Images/Vector.png"></figure>
+                </div>
+                <p class="secondText">Physical health</p>
+            </div>
+            <div class="rectangleContainer">
+                <figure><img class="rectangleImg1" src="./Images/Rectangle.png"></figure>
+                <figure><img class="rectangleImg2" src="./Images/Rectangle2.png"></figure>
+            </div>
+            <div class="tabContainer">
+                <div class="vectorImgContainer">
+                    <figure><img class="vectorImg" src="./Images/Vector2.png"></figure>
+                </div>
+                <p class="secondText">Psychological<br />wellness</p>
+            </div>
+            <div class="rectangleContainer">
+                <figure><img class="rectangleImg1_1" src="./Images/Rectangle.png"></figure>
+                <figure><img class="rectangleImg2_1" src="./Images/Rectangle.png"></figure>
+            </div>
+            <div class="tabContainer">
+                <div class="vectorImgContainer">
+                    <figure>
+                        <img class="vectorImg" style="margin-top: 10px;" src="./Images/Vector3.png">
+                        <img class="vectorImg4" src="./Images/Vector4.png">
+                    </figure>
+                </div>
+                <p class="secondText">Healthy lifestyle</p>
+            </div>
+        </div>
+        <div class="fifthMainContainer">
+            <a name="GetStarted"></a>
+            <p class="fiftFirstText">Get personalized diet plans and required consultation,<br /> just by answering few
+                short questions...</p>
+            <p class="fifthSecondText">Select your current health condition, choose one or more options</p>
+        </div>
+        <div class="photosMainContainer">
+            <div class="lagMainContainer">
+                <div class="lagChildContainer">
+                    <figure>
+                        <img class="rectangleImg5" src="./Images/Rectangle5.png">
+                        <img class="ellipsImg" src="./Images/Ellipse 1.png">
+                        <img class="vectorImg5" src="./Images/Vector5.png">
+                    </figure>
+                </div>
+                <div class="lagTextContainer">
+                    <p class="lagText">Weight<br />Management</p>
+                </div>
+            </div>
+            <div class="fingureMainContainer">
+                <div class="fingureChildContainer">
+                    <figure>
+                        <img class="rectangleImg6" src="./Images/Rectangle6.png">
+                        <img class="ellipsImg" src="./Images/Ellipse2.png">
+                    </figure>
+                </div>
+                <div class="fingureTextContainer">
+                    <p class="fingureText">Diabetes</p>
+                </div>
+            </div>
+            <div class="fingureMainContainer">
+                <div class="fingureChildContainer">
+                    <figure>
+                        <img class="rectangleImg6" src="./Images/Rectangle7.png">
+                        <img class="ellipsImg" src="./Images/Ellipse2.png">
+                    </figure>
+                </div>
+                <div class="fingureTextContainer">
+                    <p class="fingureText">Depression</p>
+                </div>
+            </div>
+        </div>
+        <div class="getstartedSecondBtnContainer">
+            <button class="getstartedSecondBtn" onclick={openPopUp()}>Get Started</button>
+            <!-- <div class="PopUp" id="PopUp">
+                <div class="popUpSecondContainer" >
+                    <img class="popUpImg" src="./Images/Fruits2.png">
+                    <div class="popUpThirdContainer">
+                        <div class="popUpPContainer">
+                        <p class="popupFP">Welcome to<b><span style="color: #F1A501;"> Healthy.</span>How</b></p>
+                        <p class="popupSP">Get personalized diet that best fits for you and your current<br />health
+                            condition.</p>
+                        <p class="popupTP">Please Login in to your account or create your free account<br />now so our
+                            proffesionals are getting
+                            familiar with you and <br /> assist best as per your current health condition and your
+                            current<br />diet.</p>
+                        <div class="btnMainContainer" style="justify-content: flex-start;">
+                            <div class="loginContainer">
+                                <button class="loginText">Login</button>
+                            </div>
+                            <div class="SignupContainer">
+                                <button class="SignupText" style="padding: 17px 25px 17px 25px;">Register now</button>
+                            </div>
+                            <div class="closeContainer">
+                                <button class="closeText"  onclick="closePopUp()" style="padding: 17px 25px 17px 25px;">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="howTextContainer">
+            <p class="howText"><a name="HowItWork"></a>How it<span class="word"> works ?</span></p>
+        </div>
+        <div class="stepMainContainer">
+            <div class="step1Container">
+                <figure>
+                    <img class="step1Img" src="./Images/Step1.png">
+                </figure>
+                <div class="step1textContainer">
+                    <p class="stepText">Step</p>
+                    <figure>
+                        <img class="numberEllipsImg" src="./Images/Ellipse3.png">
+                        <p class="numberText">1</p>
+                    </figure>
+                </div>
+                <div class="pStepTextContainer">
+                    <p class="PText">Select your condition<br />(physical, or mental)</p>
+                </div>
+                <br />
+                <div class="knowMoreContainer">
+                    <p class="knowText">Know more ></p>
+                </div>
+                <div class="OrangeContainer"></div>
+            </div>
+            <div class="step1Container">
+                <figure>
+                    <img class="step1Img" src="./Images/Step2.png">
+                </figure>
+                <div class="step1textContainer">
+                    <p class="stepText">Step</p>
+                    <figure>
+                        <img class="numberEllipsImg" src="./Images/Ellipse3.png">
+                        <p class="numberText">2</p>
+                    </figure>
+                </div>
+                <div class="pStepTextContainer">
+                    <p class="PText">Answer some short<br /> questions</p>
+                </div>
+                <br />
+                <div class="knowMoreContainer">
+                    <p class="knowText">Know more ></p>
+                </div>
+                <div class="OrangeContainer"></div>
+            </div>
+            <div class="step1Container">
+                <figure>
+                    <img class="step1Img" src="./Images/Step3.png">
+                </figure>
+                <div class="step1textContainer">
+                    <p class="stepText">Step</p>
+                    <figure>
+                        <img class="numberEllipsImg" src="./Images/Ellipse3.png">
+                        <p class="numberText">3</p>
+                    </figure>
+                </div>
+                <div class="pStepTextContainer">
+                    <p class="PText">We provide a personal<br /> diet plan suited to your needs</p>
+                </div>
+                <div class="knowMoreContainer">
+                    <p class="knowText">Know more ></p>
+                </div>
+                <div class="OrangeContainer" style="margin-top: 27px;"></div>
+            </div>
+        </div>
+        <div class="stepMainSecondContainer">
+            <div class="step4Container">
+                <figure>
+                    <img class="step1Img" src="./Images/Step4.png">
+                </figure>
+                <div class="step1textContainer">
+                    <p class="stepText">Step</p>
+                    <figure>
+                        <img class="numberEllipsImg" src="./Images/Ellipse3.png">
+                        <p class="numberText">4</p>
+                    </figure>
+                </div>
+                <div class="pStepTextContainer">
+                    <p class="PText">Apply the plan on your<br /> lifestyle</p>
+                </div>
+                <br />
+                <div class="knowMoreContainer">
+                    <p class="knowText">Know more ></p>
+                </div>
+                <div class="OrangeContainer"></div>
+            </div>
+            <div class="step5Container">
+                <figure>
+                    <img class="step1Img" src="./Images/Step5.png">
+                </figure>
+                <div class="step1textContainer">
+                    <p class="stepText">Step</p>
+                    <figure>
+                        <img class="numberEllipsImg" src="./Images/Ellipse3.png">
+                        <p class="numberText">5</p>
+                    </figure>
+                </div>
+                <br />
+                <div class="pStepTextContainer">
+                    <p class="PText">See results!</p>
+                </div>
+                <br />
+                <div class="knowMoreContainer">
+                    <p class="knowText" style="margin-top: 20px;">Know more ></p>
+                </div>
+                <div class="OrangeContainer" style="margin-top: 26px;"></div>
+            </div>
+        </div>
+        <div class="fruitsMainContainer">
+            <div class="fruitImgContainer">
+                <figure>
+                    <img class="fruitImg" src="./Images/Fruits1.png">
+                </figure>
+            </div>
+            <div class="textMainContainer">
+                <p class="seeText">See,<span class="how"> how</span> you can<br />check calories...</p>
+                <p class="QPText">Quibusdam explicabo voluptatem ab. Impedit delectus<br /> qui voluptatem. Adipisci
+                    deleniti
+                    necessitatibus sit eum <br />fugiat voluptas labore eveniet et.</p>
+                <a style="color: #ffff; text-decoration: none;" href="#ReadMore"><button class="readMoreBtn">Read
+                        more</button></a>
+            </div>
+        </div>
+
+        <div class="EllipsContainer">
+            <figure>
+                <img class="ellips4Img" style="margin-right: -70px;" src="./Images/Ellipse4.png">
+            </figure>
+            <figure>
+                <img class="ellips5Img" src="./Images/Ellipse5.png">
+            </figure>
+            <figure>
+                <img class="ellips4Img" style="margin-left: -20px;" src="./Images/Ellipse4.png">
+            </figure>
+        </div>
+        <div class="lastMainContainer">
+            <a name="Contact"></a>
+            <div class="lastFContainer">
+                <p class="MainCText">CONTACT US</p>
+                <p class="tallFreeText">Toll Free Number</p>
+                <p class="latNumberText">+91 18000 67834</p>
+                <p class="emailText">healthy.how@hotmail.com</p>
+                <p class="addressText">48 - Blue business hub,<br />Kandivli, South Mumbai,<br /> Mumbai - 549654</p>
+            </div>
+            <div class="lastUContainer">
+                <p class="MainUText">USEFUL LINKS</p>
+                <p class="lastSecondText">Meet the team</p>
+                <p class="lastSecondText">About us</p>
+                <p class="lastSecondText">Blog</p>
+                <p class="lastSecondText">Pricing</p>
+                <p class="lastSecondText">FAQs</p>
+            </div>
+            <div class="lastFolloContainer">
+                <p class="MainFText">FOLLOW US ON</p>
+            </div>
+            <div class="lastHContainer">
+                <p class="MainHText">HEALTHY.HOW</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <script>
+        let PopUp = document.getElementById("PopUp")
+
+        function openPopUp() {
+            PopUp.classList.add("open_popUp")
+        }
+        function closePopUp() {
+            PopUp.classList.remove("open_popUp")
+        }
+
+    </script> -->
+
+
+</body>
+
+</html>
